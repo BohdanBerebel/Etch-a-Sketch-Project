@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 800px;
+}
+
+/* div div div:hover {
+    background-color: yellow;
+} */
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    /* border: 1px solid blue; */
+}
+
+.column {
+    display: flex;
+    flex: 1 1 100%;
+    border: 1px solid blue;
+    /* background-color: none; */
+  }
+
+/* .hover {
+    background-color: red;
+} */
+
+button {
+    margin: 20px auto;
+    display: block;
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    background-color: lightblue;
+}
